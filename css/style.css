@@ -82,7 +82,23 @@ button{
     background-color:#0C3D41 ;
     border-radius: 25px;
     border: none;
-    animation: .3s ease-in-out;
+    animation: .5s ease-in-out;
+}
+
+button:hover{
+    background-color:#B55414;
+    animation-direction: normal;
+}
+
+button:active{
+    font-size: large;
+    font-stretch: extra-expanded;
+    
+}
+
+.project-card button{
+    color: #0C3D41;
+    background-color: white;
 }
 
 button:hover{
@@ -165,3 +181,5 @@ button:hover{
     /* height:800px; */
     width: auto;
 }
+
+
