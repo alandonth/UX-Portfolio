@@ -296,3 +296,19 @@ button:hover{
     /* display: flex; */
     text-align: center;
 }
+
+.contact-hero{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+}
+
+.contact-hero img{
+    width: 500px;
+    height: auto;
+}
+.contact-hero a{
+color: white;
+}
