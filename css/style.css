@@ -4,6 +4,7 @@ body{
     color: white;
     /* margin: 0 25px 0 25px; */
     font-family: "Mulish", sans-serif;
+    cursor: crosshair;
 }
 
 .navbar-toggler{
@@ -182,4 +183,110 @@ button:hover{
     width: auto;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+}
 
+/* Project 1 Page */
+
+.project-hero div{
+    padding: 0 0 0 0;
+}
+
+.project-hero .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.project-hero{
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+}
+
+.research{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #1D1D1D;
+    padding: auto 150px auto 150px;
+    height: 50vh;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    padding: auto 150px auto 150px;
+    height: 25vh;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    color: #1D1D1D;
+    padding: auto 150px auto 150px;
+    height: 70vh;
+    /* background-image: url(../images/storyboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.image div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.image img{
+    height: 70vh;
+    width: auto;
+}
+
+.prototype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #1D1D1D;
+    padding: auto 150px auto 150px;
+    height: 50vh;
+}
+
+.solution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px auto 150px;
+    margin: 50px 0 0 0;
+    /* height: 100vh; */
+}
+
+.demo-mov{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+}
+
+.gallery{
+    margin: 100px auto;
+    /* display: flex; */
+    text-align: center;
+}
