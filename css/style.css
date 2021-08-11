@@ -108,7 +108,7 @@ button:hover{
 }
 
 .hero div{
-    padding: 0 0 0 0;
+    padding: 0 10px 50px 10px;
 }
 
 .hero .row{
@@ -117,7 +117,7 @@ button:hover{
 }
 
 .hero{
-    margin: 150px auto;
+    margin: 100px auto;
     display: flex;
     align-items: center;
     justify-content: center;
