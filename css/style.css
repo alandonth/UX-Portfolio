@@ -97,6 +97,12 @@ button:active{
     
 }
 
+@media (max-width: 991.98px) {
+    .hero img{
+        display:none
+    }
+}
+
 .project-card button{
     color: #0C3D41;
     background-color: white;
@@ -107,14 +113,14 @@ button:hover{
     animation-direction: normal;
 }
 
-.hero div{
+/* .hero div{
     padding: 0 5px 50px 5px;
 }
 
 .hero .row{
     margin-left: 0;
     margin-right: 0;
-}
+} */
 
 .hero{
     margin: 100px auto;
