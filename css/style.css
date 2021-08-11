@@ -1,7 +1,93 @@
+
 body{
     background-color: #1D1D1D;
     color: white;
-    margin: 0 50px 0 50px;
+    /* margin: 0 25px 0 25px; */
+    font-family: "Mulish", sans-serif;
+}
+
+.navbar-toggler{
+    color:white;
+    /* border-color: #00093D; */
+}
+
+/* .navbar{
+    background-color: #F8B101;
+} */
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    /* color: #fff; */
+    color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #B55414;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #00093D;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: white;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #1D1D1D;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: white;
+    }
+}
+
+header li{
+    padding: 0 25px 0 25px;
+}
+
+.fixed-top{
+    position:absolute
+}
+
+button{
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color:#0C3D41 ;
+    border-radius: 25px;
+    border: none;
+    animation: .3s ease-in-out;
+}
+
+button:hover{
+    background-color:#B55414;
+    animation-direction: normal;
 }
 
 .hero div{
@@ -35,7 +121,7 @@ body{
 }
 
 .project-card{
-    margin: 25px auto;
+    margin: 25px 25px 25px 25px;
 }
 
 .project-1{
