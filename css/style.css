@@ -136,12 +136,12 @@ button:hover{
     align-content: center;
 } */
 
-.hero-copy{
+/* .hero-copy{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-}
+} */
 
 .project-card{
     margin: 25px 25px 25px 25px;
@@ -152,7 +152,7 @@ button:hover{
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: url(../images/Background\ Image\ with\ Screen.png);
+    background-image: url(../images/Background\ without\ screen.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -209,11 +209,22 @@ button:hover{
 }
 
 .project-hero{
-    margin: 100px auto;
+    margin: 100px auto 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 80vh; */
+    text-align: center;
+    height: 70vh;
+}
+
+.description{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 0 50px 0;
+
 }
 
 .research{
@@ -233,8 +244,8 @@ button:hover{
     text-align: center;
     background-color: white;
     color: grey;
-    padding: auto 150px auto 150px;
-    height: 25vh;
+    /* padding: auto 150px auto 150px; */
+    /* height: 30vh; */
 }
 
 .image{
@@ -244,24 +255,25 @@ button:hover{
     align-content: center;
     background-color: white;
     color: #1D1D1D;
-    padding: auto 150px auto 150px;
-    height: 70vh;
+    padding: 50px 0 50px 0;
+    /* height: 70vh; */
     /* background-image: url(../images/storyboard.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; */
 }
 
-.image div{
+.insights div{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
-.image img{
-    height: 70vh;
-    width: auto;
+.insights img{
+    /* height: 70vh; */
+    width: 50vw;
+    /* scale: 40%; */
 }
 
 .prototype{
