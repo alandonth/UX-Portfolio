@@ -4,7 +4,7 @@ body{
     color: white;
     /* margin: 0 25px 0 25px; */
     font-family: "Mulish", sans-serif;
-    cursor: crosshair;
+    /* cursor: crosshair; */
 }
 
 .navbar-toggler{
@@ -67,6 +67,9 @@ body{
         color: white;
     }
 }
+header h2:hover{
+color: #B55414;
+}
 
 header li{
     padding: 0 25px 0 25px;
@@ -80,16 +83,17 @@ button{
     height: 45px;
     width: 150px;
     color: white;
-    background-color:#0C3D41 ;
+    background-color: #B55414 ;
     border-radius: 25px;
-    border: none;
-    animation: .5s ease-in-out;
+    border: 3px solid #B55414;
+    transition-duration: 0.4s;
 }
 
-button:hover{
+/* button:hover{
     background-color:#B55414;
     animation-direction: normal;
-}
+    color: white;
+} */
 
 button:active{
     font-size: large;
@@ -104,13 +108,27 @@ button:active{
 }
 
 .project-card button{
-    color: #0C3D41;
-    background-color: white;
+    color: white;
+    background-color: #B55414 ;
+    border-radius: 25px;
+    border: 3px solid #B55414;
+    transition-duration: 0.4s;
 }
 
 button:hover{
-    background-color:#B55414;
-    animation-direction: normal;
+    /* background-color:#B55414; */
+    color: white;
+    border: 3px solid #B55414;
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+.project-card button:hover{
+    /* background-color:#B55414; */
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    opacity: 0.8;
 }
 
 /* .hero div{
@@ -127,7 +145,13 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     /* height: 80vh; */
+}
+
+.hero div{
+    justify-content: center;
+    align-items: center;
 }
 
 /* .hero img{
@@ -152,11 +176,24 @@ button:hover{
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-image: url(../images/Background\ Image\ with\ Screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 80vh;
+    /* height:800px; */
+    width: auto;
+}
+.whatshapp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-image: url(../images/Background\ without\ screen.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 90vh;
+    /* background-position: center; */
+    height: 80vh;
     /* height:800px; */
     width: auto;
 }
@@ -170,7 +207,7 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 80vh;
     /* height:800px; */
     width: auto;
 }
@@ -184,7 +221,7 @@ button:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 80vh;
     /* height:800px; */
     width: auto;
 }
@@ -327,6 +364,11 @@ figcaption{
     align-items: center;
     justify-content: center;
     /* height: 80vh; */
+    background-image: url(../images/hello-dark.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 70vh;
 }
 
 .contact-hero img{
@@ -335,4 +377,24 @@ figcaption{
 }
 .contact-hero a{
 color: white;
+}
+
+.back-to-top{
+    color: white;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.back-to-top a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.icons{
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
