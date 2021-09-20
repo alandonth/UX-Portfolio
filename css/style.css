@@ -263,6 +263,10 @@ button:hover{
     background-size: contain; */
 }
 
+figcaption{
+    text-align: center;
+}
+
 .insights div{
     display: flex;
     justify-content: center;
@@ -274,6 +278,7 @@ button:hover{
     /* height: 70vh; */
     width: 50vw;
     /* scale: 40%; */
+    margin: 50px 0 0 0;
 }
 
 .prototype{
@@ -283,7 +288,7 @@ button:hover{
     background-color: white;
     color: #1D1D1D;
     padding: auto 150px auto 150px;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .solution{
@@ -307,6 +312,13 @@ button:hover{
     margin: 100px auto;
     /* display: flex; */
     text-align: center;
+}
+
+.stats_gallery{
+    margin: 100px auto;
+    /* display: flex; */
+    text-align: center;
+    background-color: white;
 }
 
 .contact-hero{
