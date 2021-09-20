@@ -7,22 +7,20 @@ body{
     /* cursor: crosshair; */
 }
 
+a {
+    text-decoration:none;
+    color:#FFF;
+  }
+
+
+
+/*                     BEGIN NAVBAR                    */
+
+
+
 .navbar-toggler{
     color:white;
     /* border-color: #00093D; */
-}
-
-/* .navbar{
-    background-color: #F8B101;
-} */
-
-.navbar {
-    transition: all 0.4s;
-}
-
-.navbar .nav-link {
-    /* color: #fff; */
-    color: white;
 }
 
 .navbar .nav-link:hover,
@@ -67,9 +65,25 @@ body{
         color: white;
     }
 }
-header h2:hover{
-color: #B55414;
+
+.gradient-text:hover{
+background-color: #B55414;
+background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+background-size: 100%;
+background-repeat: repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: white;
+animation:slidebg 5s linear infinite;
+/* color: #B55414; */
 }
+
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
 
 header li{
     padding: 0 25px 0 25px;
@@ -79,7 +93,7 @@ header li{
     position:absolute
 }
 
-button{
+/* button{
     height: 45px;
     width: 150px;
     color: white;
@@ -87,8 +101,37 @@ button{
     border-radius: 25px;
     border: 3px solid #B55414;
     transition-duration: 0.4s;
+} */
+
+
+
+/*                      END NAVBAR                         */
+
+
+/*                      BEGIN BUTTONS                        */
+
+button{
+    height: 45px;
+    width: 150px;
+    color: #1D1D1D;
+    background-color: white ;
+    border-radius: 25px;
+    border: 3px solid white;
+    transition-duration: 0.5s;
 }
 
+
+.rainbow-button button:hover{
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    animation:slidebg 5s linear infinite;
+}
 /* button:hover{
     background-color:#B55414;
     animation-direction: normal;
@@ -108,19 +151,32 @@ button:active{
 }
 
 .project-card button{
-    color: white;
-    background-color: #B55414 ;
+    height: 45px;
+    width: 150px;
+    color: #1D1D1D;
+    background-color: white ;
     border-radius: 25px;
-    border: 3px solid #B55414;
+    border: 3px solid white;
     transition-duration: 0.4s;
 }
 
 button:hover{
+
+    background-color: #B55414;
+background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+background-size: 100%;
+background-repeat: repeat;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: white;
+animation:slidebg 5s linear infinite;
+
     /* background-color:#B55414; */
-    color: white;
+    /* color: white;
     border: 3px solid #B55414;
     background-color: transparent;
-    opacity: 0.8;
+    opacity: 0.8; */
 }
 
 .project-card button:hover{
@@ -131,14 +187,9 @@ button:hover{
     opacity: 0.8;
 }
 
-/* .hero div{
-    padding: 0 5px 50px 5px;
-}
 
-.hero .row{
-    margin-left: 0;
-    margin-right: 0;
-} */
+/*                      END BUTTONS                      */
+
 
 .hero{
     margin: 100px auto;
@@ -351,12 +402,29 @@ figcaption{
     text-align: center;
 }
 
-.stats_gallery{
-    margin: 100px auto;
-    /* display: flex; */
-    text-align: center;
-    background-color: white;
+.icons{
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.back-to-top{
+    color: white;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.back-to-top a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+/*                  END PROJECT 1 PAGE               */
+
+/*                  CONTACT PAGE */
 
 .contact-hero{
     margin: 100px auto;
@@ -379,22 +447,7 @@ figcaption{
 color: white;
 }
 
-.back-to-top{
-    color: white;
-    text-align: center;
-    margin: 50px 0 50px 0;
-}
 
-.back-to-top a{
-    color: white;
-    text-decoration: none;
-    font-size: large;
-}
 
-.icons{
-    margin: 50px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
+
