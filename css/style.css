@@ -247,6 +247,7 @@ animation:slidebg 5s linear infinite;
     height: 80vh;
     /* height:800px; */
     width: auto;
+    background-attachment: fixed;
 }
 
 .project-2{
@@ -254,7 +255,22 @@ animation:slidebg 5s linear infinite;
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: url(../images/Background\ Image\ with\ Screen.png);
+    background-image: url(../images/AGFT-background-light.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    /* height:800px; */
+    width: auto;
+}
+
+.agft{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/AGFT-background-light.png);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -322,7 +338,9 @@ animation:slidebg 5s linear infinite;
     background-color: white;
     color: #1D1D1D;
     padding: auto 150px auto 150px;
-    height: 50vh;
+    /* height: 50vh; */
+    padding-top: 50px;
+    
 }
 
 .quote{
@@ -447,7 +465,79 @@ figcaption{
 color: white;
 }
 
+.stats{
+    background-color: white;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 0 0 0 0;
+}
+
+.stat1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 50px 10px 0 10px;
+}
+
+.stat2{
+    height: 50vh;
+    width: 50vw;
+    background-color: #00093D;
+}
+
+.stat3{
+    height: 50vh;
+    width: 50vw;
+    background-color: #FEBF2C;
+}
+
+.stat4{
+    height: 50vh;
+    width: 50vw;
+    background-color: #1CB89F;
+}
 
 
+.quote-AGFT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    padding: 50px 0 0 0;
+    /* height: 30vh; */
+}
 
+.home-screen{
+background-image: linear-gradient(white, grey);
+}
 
+.middle{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    justify-items: center;
+}
