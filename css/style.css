@@ -7,6 +7,10 @@ body{
     /* cursor: crosshair; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration:none;
     color:#FFF;
@@ -285,13 +289,39 @@ animation:slidebg 5s linear infinite;
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: url(../images/Background\ Image\ with\ Screen.png);
+    background-image: url(../images/PSDP-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
     /* height:800px; */
     width: auto;
+}
+
+.psdp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/PSDP-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    /* height:800px; */
+    width: auto;
+}
+
+.more{
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .footer{
@@ -447,7 +477,7 @@ figcaption{
 /*                  CONTACT PAGE */
 
 .contact-hero{
-    margin: 100px auto;
+    margin: 100px 0 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -542,4 +572,30 @@ background-image: linear-gradient(white, grey);
     text-decoration: none;
     justify-content: center;
     justify-items: center;
+}
+
+.psdp-img1{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/PSDP-background.png);
+}
+
+.quote-psdp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: grey;
+    padding: 50px 0 50px 0;
+    /* height: 30vh; */
 }
