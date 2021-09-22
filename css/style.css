@@ -391,6 +391,7 @@ animation:slidebg 5s linear infinite;
     justify-content: center;
     align-items: center;
     align-content: center;
+    justify-content: center;
     background-color: white;
     color: #1D1D1D;
     padding: 50px 0 50px 0;
@@ -400,6 +401,25 @@ animation:slidebg 5s linear infinite;
     background-repeat: no-repeat;
     background-size: contain; */
 }
+
+.psdp-persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(../images/PSDP\ Dog-Walking-Background.png);
+    background-attachment: fixed;
+    background-color:#308a60;
+    color: white;
+    padding: 25px 0 25px 0;
+    /* height: 70vh; */
+    /* background-image: url(../images/storyboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
 
 figcaption{
     text-align: center;
@@ -419,14 +439,40 @@ figcaption{
     margin: 50px 0 0 0;
 }
 
+.ideation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #1D1D1D;
+    padding: 50px 150px 0 150px;
+    /* height: 50vh; */
+}
+
 .prototype{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: #1D1D1D;
-    padding: auto 150px auto 150px;
+    padding: 50px 150px 0 150px;
     /* height: 50vh; */
+}
+
+.sketches{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1D1D1D;
+    color: white;
+    padding: 50px 150px 0 150px;
+    /* height: 50vh; */
+}
+
+.gallery{
+    padding: 50px 150px 50px 150px;
 }
 
 .solution{
@@ -586,7 +632,22 @@ background-image: linear-gradient(white, grey);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/PSDP-background.png);
+    background-image: url(../images/PSDP\ dog\ cuddles.jpg);
+}
+
+.psdp-img2{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/PSDP\ Boy\ and\ Dog.jpg);
 }
 
 .quote-psdp{
