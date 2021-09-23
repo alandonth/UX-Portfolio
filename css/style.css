@@ -445,8 +445,9 @@ figcaption{
     align-items: center;
     background-color: white;
     color: #1D1D1D;
-    padding: 50px 150px 0 150px;
+    padding: auto 150px auto 150px;
     /* height: 50vh; */
+    padding-top: 50px;
 }
 
 .prototype{
@@ -455,8 +456,9 @@ figcaption{
     align-items: center;
     background-color: white;
     color: #1D1D1D;
-    padding: 50px 150px 0 150px;
+    padding: auto 150px auto 150px;
     /* height: 50vh; */
+    padding-top: 50px;
 }
 
 .sketches{
@@ -471,9 +473,15 @@ figcaption{
     /* height: 50vh; */
 }
 
-.gallery{
-    padding: 50px 150px 50px 150px;
+.gallery p{
+    /* margin: 0 auto 0 auto; */
+    padding: auto 150px auto 150px;
+
 }
+
+/* .gallery p{
+    padding 50px 
+} */
 
 .solution{
     display: flex;
