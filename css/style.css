@@ -14,9 +14,37 @@ html{
 a {
     text-decoration:none;
     color:#FFF;
-  }
+}
 
+figcaption{
+    font-style: italic;
+}
 
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.slow-fade{
+    animation-duration: 1s;
+
+}
 
 /*                     BEGIN NAVBAR                    */
 
@@ -360,6 +388,7 @@ animation:slidebg 5s linear infinite;
     align-content: center;
     align-items: center;
     padding: 0 0 50px 0;
+    animation-duration: 1.5s;
 
 }
 
@@ -476,7 +505,12 @@ figcaption{
 .gallery p{
     /* margin: 0 auto 0 auto; */
     padding: auto 150px auto 150px;
-
+    text-align: left;
+}
+.gallery h1{
+    /* margin: 0 auto 0 auto; */
+    padding: auto 150px auto 150px;
+    text-align: left;
 }
 
 /* .gallery p{
@@ -494,6 +528,7 @@ figcaption{
 
 .demo-mov{
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -531,16 +566,16 @@ figcaption{
 /*                  CONTACT PAGE */
 
 .contact-hero{
-    margin: 100px 0 50px 0;
+    margin: 150px 0 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     /* height: 80vh; */
-    background-image: url(../images/hello-dark.png);
-    background-position: center;
+    background-image: url(../images/Let\ the\ journey\ begin.png);
+    background-position: bottom;
     background-size: cover;
     background-repeat: none;
-    height: 70vh;
+    height: 90vh;
 }
 
 .contact-hero img{
@@ -607,6 +642,19 @@ color: white;
 
 .home-screen{
 background-image: linear-gradient(white, grey);
+display: flex;
+flex-direction: column;
+}
+
+.home-screen div{
+    align-content: center;
+    display: flex;
+flex-direction: column;
+}
+
+.home-screen img{
+    height: 500px;
+    width: auto;
 }
 
 .middle{
