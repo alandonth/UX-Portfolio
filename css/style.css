@@ -119,6 +119,10 @@ header li{
     padding: 0 25px 0 25px;
 }
 
+.header{
+    margin: 50px 0 50px 0;
+}
+
 .fixed-top{
     position:absolute
 }
@@ -251,6 +255,10 @@ animation:slidebg 5s linear infinite;
 
 .project-card{
     margin: 25px 25px 25px 25px;
+}
+
+.top-project-card{
+    margin: 100px 25px 25px 25px;
 }
 
 .project-1{
