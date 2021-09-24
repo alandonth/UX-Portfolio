@@ -48,8 +48,6 @@ figcaption{
 
 /*                     BEGIN NAVBAR                    */
 
-
-
 .navbar-toggler{
     color:white;
     /* border-color: #00093D; */
@@ -566,7 +564,7 @@ figcaption{
 /*                  CONTACT PAGE */
 
 .contact-hero{
-    margin: 150px 0 50px 0;
+    margin: 100px 0 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -715,4 +713,8 @@ flex-direction: column;
     color: grey;
     padding: 50px 0 50px 0;
     /* height: 30vh; */
+}
+
+.top-buffer{
+    padding: 50px 0 0 0;
 }
