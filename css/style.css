@@ -312,10 +312,16 @@ animation:slidebg 5s linear infinite;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     height: 80vh;
     /* height:800px; */
-    width: auto;
+    background-size: auto;
+}
+
+@media (max-width:800px) {
+    .agft{
+        background-image: url(../images/AGFT\ Background-Dark\ small.png);
+    }   
 }
 
 .project-3{
@@ -345,6 +351,12 @@ animation:slidebg 5s linear infinite;
     height: 80vh;
     /* height:800px; */
     width: auto;
+}
+
+@media (max-width:767px) {
+    .psdp{
+        background-image: url(../images/PSDP-background\ small.png);
+    }   
 }
 
 .more{
@@ -691,10 +703,17 @@ flex-direction: column;
     text-align: center;
     height: 90vh;
     background-attachment: fixed;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-image: url(../images/PSDP\ dog\ cuddles.jpg);
+    background-size: auto;
+}
+
+@media (max-width:800px) {
+    .psdp-img1{
+        background-image: url(../images/PSDP\ dog\ cuddles\ small.png);
+    }   
 }
 
 .psdp-img2{
@@ -710,6 +729,12 @@ flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/PSDP\ Boy\ and\ Dog.jpg);
+}
+
+@media (max-width:800px) {
+    .psdp-img2{
+        background-image: url(../images/PSDP\ Boy\ and\ Dog\ small.png);
+    }   
 }
 
 .quote-psdp{
