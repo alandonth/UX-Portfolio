@@ -705,9 +705,9 @@ flex-direction: column;
     background-attachment: fixed;
     /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center ;
     background-image: url(../images/PSDP\ dog\ cuddles.jpg);
-    background-size: auto;
+    background-size: cover;
 }
 
 @media (max-width:800px) {
