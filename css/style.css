@@ -341,7 +341,7 @@ animation:slidebg 5s linear infinite;
 
 @media (max-width:1025px) {
     .agft{
-        background-image: url(../images/AGFT\ Background-Dark\ small.png);
+        background: url(../images/AGFT-background-light.png) no-repeat center;
     }   
 }
 
