@@ -298,6 +298,12 @@ animation:slidebg 5s linear infinite;
     background-attachment: fixed;
 }
 
+@media(max-width:1025px) {
+    .whatshapp{
+        background: url(../images/Background\ without\ screen.png) no-repeat center;
+    }
+}
+
 .project-2{
     display: flex;
     justify-content: center;
@@ -327,7 +333,7 @@ animation:slidebg 5s linear infinite;
     background-size: auto;
 }
 
-@media (max-width:800px) {
+@media (max-width:1025px) {
     .agft{
         background-image: url(../images/AGFT\ Background-Dark\ small.png);
     }   
@@ -367,7 +373,7 @@ animation:slidebg 5s linear infinite;
     width: auto;
 } */
 
-@media (max-width:767px) {
+@media (max-width:1025px) {
     .psdp{
         background: url(../images/PSDP-background\ small.png) no-repeat center;
     }   
