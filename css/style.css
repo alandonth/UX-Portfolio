@@ -258,10 +258,11 @@ animation:slidebg 5s linear infinite;
 }
 
 .top-project-card{
-    margin: 100px 25px 25px 25px;
+    margin: 100px 25px 0px 25px;
 }
 
 .project-1{
+    margin: 0px 25px 25px 25px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -269,11 +270,19 @@ animation:slidebg 5s linear infinite;
     background-image: url(../images/Background\ Image\ with\ Screen.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     height: 80vh;
     /* height:800px; */
     width: auto;
 }
+
+@media( max-width:1025px) {
+    .project-1{
+        background-image: url(../images/Background\ without\ screen.png);
+    }
+}
+
+
 .whatshapp{
     display: flex;
     justify-content: center;
@@ -472,6 +481,11 @@ animation:slidebg 5s linear infinite;
     background-size: contain; */
 }
 
+@media (max-width:1025px) {
+    .psdp-persona{
+        background: url(../images/PSDP\ Dog-Walking-Background.png) no-repeat center;
+    }   
+}
 
 figcaption{
     text-align: center;
