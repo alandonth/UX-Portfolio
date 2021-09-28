@@ -11,6 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 
+@import url('https://css.gg/css');
+
+.gg-menu-cake{
+    color: white;
+}
+
 a {
     text-decoration:none;
     color:#FFF;
