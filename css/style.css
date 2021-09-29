@@ -806,4 +806,276 @@ flex-direction: column;
     width: auto;
 }
 
+@media(max-width:1025px) {
+    .eb{
+        background: url(../images/EB\ background.png) no-repeat center;
+    };
+}
+
+.card:hover{
+    box-shadow: #1D1D1D;
+}
+
+.stat-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+
+.stats-cards{
+    background-color: white;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 0 0 0 0;
+}
+
+.stats-card div{
+    align-content: center;
+}
+
+.eb-stats{
+    background-color: white;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 0 0 100px 0;
+}
+
+.eb-persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(../images/EB\ Vegetable\ Background.png);
+    background-attachment: fixed;
+    background-color:#308a60;
+    color: white;
+    padding: 100px 0 100px 0;
+    /* height: 70vh; */
+    /* background-image: url(../images/storyboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+@media (max-width:1025px) {
+    .eb-persona{
+        background: url(../images/EB\ Vegetable\ Background.png) no-repeat center;
+    }   
+}
+
+.eb-empathy-map{
+    margin: 150px 0 150px 0;
+}
+
+.eb-says{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-says-img.png) no-repeat center;
+    background-size: cover;
+    transition-duration: .3s;
+    height: 50vh;
+}
+
+.eb-says:hover{
+background: #99ADFF;
+}
+
+.eb-says h1{display: none;}
+.eb-says:hover > h1{display:block;}
+
+.eb-says p{display: none;}
+.eb-says:hover > p{display:block;}
+
+.eb-thinks{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-thinks-img.png) no-repeat center;
+    background-size: cover;
+    /* transition: ease-in-out; */
+    transition-duration: .5s;
+    height: 50vh;
+}
+
+.eb-thinks:hover{
+background: #99F1FF;
+    transition-duration: .5s;
+}
+
+.eb-thinks h1{display: none;}
+.eb-thinks:hover > h1{display:block;}
+
+.eb-thinks p{display: none;}
+.eb-thinks:hover > p{display:block;}
+
+.eb-does{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-does-img.png) no-repeat center;
+    background-size: cover;
+    /* transition: ease-in-out; */
+    transition-duration: .5s;
+    height: 50vh;
+}
+
+.eb-does:hover{
+background: #FF9999;
+    transition-duration: .5s;
+}
+
+.eb-does h1{display: none;}
+.eb-does:hover > h1{display:block;}
+
+.eb-does p{display: none;}
+.eb-does:hover > p{display:block;}
+
+.eb-feels{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-feels-img.png) no-repeat center;
+    background-size: cover;
+    /* transition: ease-in-out; */
+    transition-duration: .5s;
+    height: 50vh;
+}
+
+.eb-feels:hover{
+background: #99FFB4;
+    transition-duration: .5s;
+}
+
+.eb-feels h1{display: none;}
+.eb-feels:hover > h1{display:block;}
+
+.eb-feels p{display: none;}
+.eb-feels:hover > p{display:block;}
+
+.eb-likes{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-likes-img.png) no-repeat center;
+    background-size: cover;
+    /* transition: ease-in-out; */
+    transition-duration: .5s;
+    height: 50vh;
+}
+
+.eb-likes:hover{
+background: #C999FF;
+    transition-duration: .5s;
+}
+
+.eb-likes h1{display: none;}
+.eb-likes:hover > h1{display:block;}
+
+.eb-likes p{display: none;}
+.eb-likes:hover > p{display:block;}
+
+.eb-dislikes{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../images/eb-dislikes-img.png) no-repeat center;
+    background-size: cover;
+    /* transition: ease-in-out; */
+    transition-duration: .5s;
+    height: 50vh;
+}
+
+.eb-dislikes:hover{
+background: #F8FF99;
+    transition-duration: .5s;
+}
+
+.eb-dislikes h1{display: none;}
+.eb-dislikes:hover > h1{display:block;}
+
+.eb-dislikes p{display: none;}
+.eb-dislikes:hover > p{display:block;}
+
+.quote-eb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: gray;
+    padding: 150px 0 150px 0;
+    /* height: 30vh; */
+}
+
+.eb-img1{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-image: url(../images/eb-img1.jpg);
+    background-size: cover;
+}
+
+@media (max-width:1025px) {
+    .eb-img1{
+        background: url(../images/eb-img1-small.png) no-repeat left;
+        height: 50vh;
+    }   
+}
+
+.eb-img2{
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/eb-img2.jpg);
+}
+
+@media (max-width:1025px) {
+    .eb-img2{
+        background: url(../images/eb-img2-small.png) no-repeat center;
+        height: 50vh;
+    }   
+}
+
 /*                  END OF EVERYBITE                     */
