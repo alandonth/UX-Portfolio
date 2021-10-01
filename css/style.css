@@ -806,6 +806,20 @@ flex-direction: column;
     width: auto;
 }
 
+.project-eb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/EB\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    /* height:800px; */
+    width: auto;
+}
+
 @media(max-width:1025px) {
     .eb{
         background: url(../images/EB\ background.png) no-repeat center;
